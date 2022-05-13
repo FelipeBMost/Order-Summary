@@ -5,15 +5,111 @@
 }
 
 body {
-    font-size: 16px;
-    font-family: ;
+    font-size: 0.8em;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    padding-top: 100px;
 }
 
+h1 {
+ font-size: 1.325em;
+ margin: 10px;
+ color: hsl(223, 47%, 23%);
+ font-weight: 900;
+}
 
+h2 {
+    font-size: 1em;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 0;
+}
+
+p {
+    margin: 10px;
+    color: hsl(224, 23%, 55%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.container a:last-child {
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 5px 15px; 
+}
+
+.music-icon {
+    width: 40px;
+}
+
+div.row {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+div.row p {
+    margin: 5px;
+}
+
+.change {
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+    font-size: 0.8em;
+    align-self: center;
+    margin-top: 2.2em;
+    margin-left: 4em;
+}
+
+.row-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.btn {
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    width: 80%;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.cancel {
+    font-weight: 700;
+    color:hsl(224, 23%, 55%);
+    font-size: 0.9em;
+}
 
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    margin-top: 20px;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
